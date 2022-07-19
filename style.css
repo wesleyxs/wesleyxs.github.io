@@ -10,9 +10,11 @@ font-weight: normal;
     margin: 0px;
     padding: 0px;
 }
+
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    min-width: 250px;
 
 }
 :root{
@@ -104,21 +106,28 @@ main{
 
 
 #imagembug{
-    max-width: 300px;
+    max-width: 500px;
+    
+}
+.imgdan{
+    max-width: 500px;
+}
+.imgirina{
+    max-width: 600px;
     display: block;
 }
 
 footer{
 
-background-color: var(--cor3);
-margin-top: 10px;
-padding: 10px;
-color: white;
-font-size: .7em;
-text-align: right;
-border-radius: 20px;
-font-weight: bolder;
-margin-left: 10px;
-margin-right: 10px;
-
-}
+    background-color: var(--cor3);
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    font-size: .7em;
+    text-align: right;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
